@@ -1,0 +1,54 @@
+[Tue Jun 07 2016 22:59:24 GMT+0800 (中国标准时间)] /
+Error: An error for test purposes.
+    at H:\Codes\Node.js\chap5\sec4\microblog\routes\index.js:10:11
+    at Layer.handle [as handle_request] (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\layer.js:95:5)
+    at next (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\layer.js:95:5)
+    at H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:330:12)
+    at next (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:176:3)
+    at router (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:312:13)
+    at H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:330:12)
+    at next (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:271:10)
+    at H:\Codes\Node.js\chap5\sec4\microblog\app.js:58:7
+[Tue Jun 07 2016 22:59:25 GMT+0800 (中国标准时间)] /index.js.map
+Error: Not Found
+    at H:\Codes\Node.js\chap5\sec4\microblog\app.js:66:13
+    at Layer.handle [as handle_request] (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:312:13)
+    at H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:330:12)
+    at next (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:271:10)
+    at H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:618:15
+    at next (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:176:3)
+    at router (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:312:13)
+    at H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:330:12)
+    at next (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:271:10)
+    at H:\Codes\Node.js\chap5\sec4\microblog\app.js:58:7
+[Tue Jun 07 2016 22:59:49 GMT+0800 (中国标准时间)] /index.js.map
+Error: Not Found
+    at H:\Codes\Node.js\chap5\sec4\microblog\app.js:66:13
+    at Layer.handle [as handle_request] (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:312:13)
+    at H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:330:12)
+    at next (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:271:10)
+    at H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:618:15
+    at next (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:176:3)
+    at router (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:312:13)
+    at H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:330:12)
+    at next (H:\Codes\Node.js\chap5\sec4\microblog\node_modules\express\lib\router\index.js:271:10)
+    at H:\Codes\Node.js\chap5\sec4\microblog\app.js:58:7
