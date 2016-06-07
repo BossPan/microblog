@@ -22,6 +22,13 @@ app.set('view engine', 'ejs');
 var partials = require('express-partials');
 app.use(partials());
 
+// 访问日志
+var fs = require('fs');
+var accessLogStream = fs.createWriteStream(__dirname + '/access.log', {flags: 'a'});
+var morgan = require('morgan');
+app.use(morgan('combined', {stream: accessLogStream}));
+var errorLogStream = fs.createWriteStream(__dirname + '/error.log', {flags: 'a'});
+
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
@@ -68,6 +75,10 @@ app.use(function(req, res, next) {
 if (app.get('env') === 'development') {
   app.use(function(err, req, res, next) {
     res.status(err.status || 500);
+    // 写入错误日志
+    var meta = '[' + new Date() + '] ' + req.url + '\n';
+    errorLogStream.write(meta + err.stack + '\n');
+
     res.render('error', {
       message: err.message,
       error: err

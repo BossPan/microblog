@@ -7,6 +7,7 @@ var express = require('express'),
 
 // 主页路由
 router.get('/', function (req, res) {
+    // throw new Error('An error for test purposes.');
     Post.get(null, function (err, posts) {
         if (err) {
             posts = [];
